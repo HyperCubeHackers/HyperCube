@@ -5,6 +5,9 @@
   - [Design Docs][designdocs]
   - [Design Ethos][designethos]
 
+[designdocs]: https://drive.google.com/drive/folders/1R9QXF1T4d7qh88SowBKQIfeis_v7CTMd?usp=sharing
+[designethos]: designethos.md
+
 ## What is HyperCube?
 
 HyperCube is a homebrew computer system designed with hackers in mind.
@@ -36,8 +39,6 @@ Currently the design documents are stored in [Google Drive, here][designdocs].
 These designs are editable only by the development team at the moment, but
 viewable by anyone with the link. As the team finalizes each design, we'll
 convert them to ODT or Markdown format and put them in source control.
-
-[designdocs]: https://drive.google.com/drive/folders/1R9QXF1T4d7qh88SowBKQIfeis_v7CTMd?usp=sharing
 
 ## What tools are you using?
 
