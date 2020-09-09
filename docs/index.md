@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+# HyperCube
 
-You can use the [editor on GitHub](https://github.com/HyperCubeHackers/HyperCube/edit/master/docs/index.md) to maintain and preview the content for your website in Markdown files.
+## Link Index
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  - [Design Docs][designdocs]
+  - [Design Ethos][designethos]
 
-### Markdown
+## What is HyperCube?
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+HyperCube is a homebrew computer system designed with hackers in mind.
+Everything about the machine is open source, from the CPUs, GPUs, sound modules,
+and so on.
 
-```markdown
-Syntax highlighted code block
+## How is it designed?
 
-# Header 1
-## Header 2
-### Header 3
+![HyperCube Module Model](https://github.com/HyperCubeHackers/HyperCube/raw/master/docs/assets/module.png "HyperCube Module Model, exploded view")
 
-- Bulleted
-- List
+Primarily, the system is composed of a backplane with a custom point-to-point
+bus based around an FPGA. The cores are fully open source and hackable, and the
+backplane is fully modular, allowing for CPUs to be plugged in arbitrarily.
 
-1. Numbered
-2. List
+The system is expandable with card-edge expansion boards called "modules", and
+supports up to eight installed at once.
 
-**Bold** and _Italic_ and `Code` text
+In terms of hardware design and part choices, we're planning on making the
+modules as hackable as possible (ie: perfboard-like with TQFP-144 parts), while
+the backplane will be more modern (BGA, QFN, etc.) due to the complexity of the
+bus. This means that hackers can make whatever modules they like relatively
+easily at home. This isn't to say we're excluding folks, of course, since
+everything will be opened for all to see. It's just that the backplane will
+require more advanced engineering skill and monetary cost.
 
-[Link](url) and ![Image](src)
-```
+## Where are the design docs?
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Currently the design documents are stored in [Google Drive, here][designdocs].
+These designs are editable only by the development team at the moment, but
+viewable by anyone with the link. As the team finalizes each design, we'll
+convert them to ODT or Markdown format and put them in source control.
 
-### Jekyll Themes
+[designdocs]: https://drive.google.com/drive/folders/1R9QXF1T4d7qh88SowBKQIfeis_v7CTMd?usp=sharing
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/HyperCubeHackers/HyperCube/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## What tools are you using?
 
-### Support or Contact
+At the moment, the answer is anything we can get our hands on!
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+  * OnShape
+  * Altium Designer
+  * Emacs
+  * Google Docs
+  * *Lots* of whiteboards
+  * Brains!
+
+## How do I contribute?
+
+Right now we want to keep the team small so we can focus -- HyperCube is a big
+project, and there's lots to do. The hardware is still nacient, and until we at
+least make it to the [EVT stage][evt] for the backplane, there probably won't be
+much to do with source code. For now, this repository will hold our prototypes.
+
+[evt]: https://en.wikipedia.org/wiki/Engineering_validation_test "Engineering validation test"
