@@ -8,3 +8,4 @@ HyperCube is a homebrew computer system designed with hackers in mind.
 Everything about the machine is open source, from the CPUs, GPUs, sound modules,
 and so on.
 
+Find out more on our [website](https://hypercubehackers.github.io/HyperCube/)!
