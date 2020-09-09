@@ -1,7 +1,6 @@
 # HyperCube
 
-![HyperCube Enclosure Model][enclosure]
-[enclosure]: https://github.com/HyperCubeHackers/HyperCube/raw/master/docs/assets/hypercube-enclosure.png "HyperCube Enclosure Model"
+![HyperCube Enclosure Model](https://github.com/HyperCubeHackers/HyperCube/raw/master/docs/assets/hypercube-enclosure.png "HyperCube Enclosure Model")
 
 ## What is HyperCube?
 
@@ -11,7 +10,7 @@ and so on.
 
 ## How is it designed?
 
-![HyperCube Module Model][module]
+![HyperCube Module Model](https://github.com/HyperCubeHackers/HyperCube/raw/master/docs/assets/module.png "HyperCube Module Model, exploded view")
 
 Primarily, the system is composed of a backplane with a custom point-to-point
 bus based around an FPGA. The cores are fully open source and hackable, and the
@@ -27,8 +26,6 @@ bus. This means that hackers can make whatever modules they like relatively
 easily at home. This isn't to say we're excluding folks, of course, since
 everything will be opened for all to see. It's just that the backplane will
 require more advanced engineering skill and monetary cost.
-
-[module]: https://github.com/HyperCubeHackers/HyperCube/raw/master/docs/assets/module.png "HyperCube Module Model, exploded view"
 
 ## Where are the design docs?
 
