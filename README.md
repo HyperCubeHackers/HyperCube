@@ -1,6 +1,6 @@
 # HyperCube
 
-![HyperCube Enclosure Model](https://github.com/HyperCubeHackers/HyeprCube/raw/master/docs/assets/hypercube-enclosure.png)
+![HyperCube Enclosure Model](https://github.com/HyperCubeHackers/HyperCube/raw/master/docs/assets/hypercube-enclosure.png)
 
 ## What is HyperCube?
 
